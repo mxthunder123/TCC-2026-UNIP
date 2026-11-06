@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "proporcoes_alvo": {
+    "treino": 0.7,
+    "validacao": 0.15,
+    "teste": 0.15
+  },
+  "agrupamento_primario": "lesion_id",
+  "sem_lesion_id": "grupo individual, exceto união por duplicidade perceptual",
+  "metodo_duplicidade_perceptual": "pHash DCT 64-bit + árvore BK + distância de Hamming e distância de histograma HSV",
+  "limiar_hamming_candidato": 10,
+  "limiar_distancia_histograma_cor_confirmacao": 0.15,
+  "n_pares_perceptuais_sinalizados": 163,
+  "pares_perceptuais_nao_removidos": true,
+  "arquivos_auditoria": [
+    "/content/data/processed/split_audit.csv",
+    "/content/data/processed/perceptual_duplicates.csv"
+  ]
+}

@@ -1,0 +1,4 @@
+split,n_imagens,n_grupos_sem_vazamento,n_lesion_id_preenchidos,n_sem_lesion_id,n_hashes_phash_indisponiveis,distribuicao_classes
+treino,16447,9011,15288,1159,0,"{""nevo_melanocitico"": 9012, ""melanoma"": 3245, ""carcinoma_basocelular"": 2286, ""ceratose_seborreica"": 948, ""ceratose_actinica"": 611, ""dermatofibroma"": 177, ""lesao_vascular"": 168}"
+validacao,3538,1931,3292,246,0,"{""nevo_melanocitico"": 1956, ""melanoma"": 670, ""carcinoma_basocelular"": 538, ""ceratose_seborreica"": 171, ""ceratose_actinica"": 130, ""lesao_vascular"": 40, ""dermatofibroma"": 33}"
+teste,3406,1931,3148,258,0,"{""nevo_melanocitico"": 1903, ""melanoma"": 607, ""carcinoma_basocelular"": 499, ""ceratose_seborreica"": 197, ""ceratose_actinica"": 126, ""lesao_vascular"": 45, ""dermatofibroma"": 29}"
