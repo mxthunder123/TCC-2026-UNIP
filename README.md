@@ -10,8 +10,8 @@ O trabalho compara a ResNet50 e a EfficientNet-B0, treinadas com transferência 
 
 O pipeline segue as etapas descritas no Capítulo 4 do trabalho (Seção 4.5), com um notebook para cada uma (01 a 09), executados nesta ordem. O notebook 00 executa todos em sequência.
 
-| Notebook | Etapa | Seção do trabalho |
-|---|---|---|
+| Notebook | Etapa |
+|---|---|
 | `00_executar_todos.ipynb` | Executa os notebooks 01 a 09 em sequência, na mesma sessão | — |
 | `01_coleta_ingestao.ipynb` | Coleta e ingestão dos dados (isic-cli, coleção 65 do ISIC Archive) | 
 | `02_limpeza_analise_exploratoria.ipynb` | Limpeza dos dados e análise exploratória | 
