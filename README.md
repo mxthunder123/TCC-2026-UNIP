@@ -41,7 +41,6 @@ As imagens não estão neste repositório: são públicas e são baixadas do ISI
 
 Todos ficam em `/content/data/processed/`:
 
-- **Partições:** `train.csv`, `val.csv`, `test.csv` e as versões `*_sem_dullrazor.csv`, com o `isic_id` de cada imagem.
 - **Auditoria da divisão:** `split_audit.csv`, `perceptual_duplicates.csv` e `split_config.json`.
 - **Configuração:** `pipeline_config.json` e `experimentos/config_final.json`.
 - **Resultados:** `resultados_comparacao.json`, `avaliacao/`, `gradcam/` e `equidade/`.
