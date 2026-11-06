@@ -44,4 +44,4 @@ Todos ficam em `/content/data/processed/`:
 - **Auditoria da divisão:** `split_audit.csv`, `perceptual_duplicates.csv` e `split_config.json`.
 - **Configuração:** `pipeline_config.json` e `experimentos/config_final.json`.
 - **Resultados:** `resultados_comparacao.json`, `avaliacao/`, `gradcam/` e `equidade/`.
-As sementes são fixadas (42). Mesmo assim, uma nova execução pode produzir valores ligeiramente diferentes, porque algumas operações da GPU não são determinísticas e os processos de carregamento de imagens não recebem semente própria (Seção 5.5 do trabalho). As saídas exibidas nos notebooks são as da execução original, feita em um único notebook no Goo
+
