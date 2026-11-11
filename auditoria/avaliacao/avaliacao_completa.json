@@ -1,0 +1,170 @@
+{
+  "resumo_geral": [
+    {
+      "arquitetura": "resnet50",
+      "acuracia_geral": 0.7281,
+      "acuracia_balanceada": 0.637,
+      "sensibilidade_media_macro": 0.637,
+      "especificidade_media_macro": 0.9441,
+      "precisao_media_macro": 0.6019,
+      "f1_medio_macro": 0.6153,
+      "auc_roc_media_macro": 0.9289
+    },
+    {
+      "arquitetura": "efficientnet_b0",
+      "acuracia_geral": 0.7487,
+      "acuracia_balanceada": 0.6516,
+      "sensibilidade_media_macro": 0.6516,
+      "especificidade_media_macro": 0.9499,
+      "precisao_media_macro": 0.6313,
+      "f1_medio_macro": 0.6387,
+      "auc_roc_media_macro": 0.9249
+    }
+  ],
+  "metricas_por_classe": {
+    "resnet50": [
+      {
+        "classe": "carcinoma_basocelular",
+        "n_amostras_teste": 499,
+        "sensibilidade": 0.8016,
+        "especificidade": 0.937,
+        "precisao_vpp": 0.6861,
+        "vpn": 0.9649,
+        "f1_score": 0.7394,
+        "auc_roc": 0.9636
+      },
+      {
+        "classe": "ceratose_actinica",
+        "n_amostras_teste": 126,
+        "sensibilidade": 0.4365,
+        "especificidade": 0.971,
+        "precisao_vpp": 0.3667,
+        "vpn": 0.9782,
+        "f1_score": 0.3986,
+        "auc_roc": 0.8997
+      },
+      {
+        "classe": "ceratose_seborreica",
+        "n_amostras_teste": 197,
+        "sensibilidade": 0.4822,
+        "especificidade": 0.9723,
+        "precisao_vpp": 0.5163,
+        "vpn": 0.9683,
+        "f1_score": 0.4987,
+        "auc_roc": 0.9207
+      },
+      {
+        "classe": "dermatofibroma",
+        "n_amostras_teste": 29,
+        "sensibilidade": 0.7241,
+        "especificidade": 0.9941,
+        "precisao_vpp": 0.5122,
+        "vpn": 0.9976,
+        "f1_score": 0.6,
+        "auc_roc": 0.9806
+      },
+      {
+        "classe": "lesao_vascular",
+        "n_amostras_teste": 45,
+        "sensibilidade": 0.6444,
+        "especificidade": 0.9967,
+        "precisao_vpp": 0.725,
+        "vpn": 0.9952,
+        "f1_score": 0.6824,
+        "auc_roc": 0.9621
+      },
+      {
+        "classe": "melanoma",
+        "n_amostras_teste": 607,
+        "sensibilidade": 0.5618,
+        "especificidade": 0.8971,
+        "precisao_vpp": 0.5421,
+        "vpn": 0.9042,
+        "f1_score": 0.5518,
+        "auc_roc": 0.8539
+      },
+      {
+        "classe": "nevo_melanocitico",
+        "n_amostras_teste": 1903,
+        "sensibilidade": 0.8087,
+        "especificidade": 0.8403,
+        "precisao_vpp": 0.8651,
+        "vpn": 0.7763,
+        "f1_score": 0.836,
+        "auc_roc": 0.9215
+      }
+    ],
+    "efficientnet_b0": [
+      {
+        "classe": "carcinoma_basocelular",
+        "n_amostras_teste": 499,
+        "sensibilidade": 0.7555,
+        "especificidade": 0.9477,
+        "precisao_vpp": 0.7127,
+        "vpn": 0.9576,
+        "f1_score": 0.7335,
+        "auc_roc": 0.9603
+      },
+      {
+        "classe": "ceratose_actinica",
+        "n_amostras_teste": 126,
+        "sensibilidade": 0.5159,
+        "especificidade": 0.9637,
+        "precisao_vpp": 0.3533,
+        "vpn": 0.9811,
+        "f1_score": 0.4194,
+        "auc_roc": 0.8929
+      },
+      {
+        "classe": "ceratose_seborreica",
+        "n_amostras_teste": 197,
+        "sensibilidade": 0.5685,
+        "especificidade": 0.9716,
+        "precisao_vpp": 0.5517,
+        "vpn": 0.9735,
+        "f1_score": 0.56,
+        "auc_roc": 0.9136
+      },
+      {
+        "classe": "dermatofibroma",
+        "n_amostras_teste": 29,
+        "sensibilidade": 0.6552,
+        "especificidade": 0.997,
+        "precisao_vpp": 0.6552,
+        "vpn": 0.997,
+        "f1_score": 0.6552,
+        "auc_roc": 0.9772
+      },
+      {
+        "classe": "lesao_vascular",
+        "n_amostras_teste": 45,
+        "sensibilidade": 0.6222,
+        "especificidade": 0.9961,
+        "precisao_vpp": 0.6829,
+        "vpn": 0.9949,
+        "f1_score": 0.6512,
+        "auc_roc": 0.9284
+      },
+      {
+        "classe": "melanoma",
+        "n_amostras_teste": 607,
+        "sensibilidade": 0.6161,
+        "especificidade": 0.8996,
+        "precisao_vpp": 0.571,
+        "vpn": 0.9153,
+        "f1_score": 0.5927,
+        "auc_roc": 0.8696
+      },
+      {
+        "classe": "nevo_melanocitico",
+        "n_amostras_teste": 1903,
+        "sensibilidade": 0.8276,
+        "especificidade": 0.8736,
+        "precisao_vpp": 0.8924,
+        "vpn": 0.8001,
+        "f1_score": 0.8588,
+        "auc_roc": 0.932
+      }
+    ]
+  }
+}

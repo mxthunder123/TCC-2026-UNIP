@@ -1,0 +1,8 @@
+classe,n_amostras_teste,sensibilidade,especificidade,precisao_vpp,vpn,f1_score,auc_roc
+carcinoma_basocelular,499,0.8016,0.937,0.6861,0.9649,0.7394,0.9636
+ceratose_actinica,126,0.4365,0.971,0.3667,0.9782,0.3986,0.8997
+ceratose_seborreica,197,0.4822,0.9723,0.5163,0.9683,0.4987,0.9207
+dermatofibroma,29,0.7241,0.9941,0.5122,0.9976,0.6,0.9806
+lesao_vascular,45,0.6444,0.9967,0.725,0.9952,0.6824,0.9621
+melanoma,607,0.5618,0.8971,0.5421,0.9042,0.5518,0.8539
+nevo_melanocitico,1903,0.8087,0.8403,0.8651,0.7763,0.836,0.9215
