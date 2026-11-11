@@ -1,0 +1,9 @@
+arquitetura,subgrupo_analisado,metrica,melhor_subgrupo,melhor_valor,pior_subgrupo,pior_valor,diferenca,disparidade_relevante
+resnet50,sexo,acuracia_geral,male,0.7455,female,0.7068,0.0387,False
+resnet50,sexo,sensibilidade_melanoma,male,0.5719,female,0.5418,0.0301,False
+resnet50,faixa_etaria,acuracia_geral,0-20,0.7937,61-80,0.6663,0.1274,True
+resnet50,faixa_etaria,sensibilidade_melanoma,81+,0.7826,0-20,0.25,0.5326,True
+efficientnet_b0,sexo,acuracia_geral,male,0.7542,female,0.739,0.0152,False
+efficientnet_b0,sexo,sensibilidade_melanoma,male,0.6198,female,0.6036,0.0162,False
+efficientnet_b0,faixa_etaria,acuracia_geral,0-20,0.8651,81+,0.6477,0.2174,True
+efficientnet_b0,faixa_etaria,sensibilidade_melanoma,81+,0.7826,0-20,0.25,0.5326,True

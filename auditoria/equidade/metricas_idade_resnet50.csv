@@ -1,0 +1,6 @@
+subgrupo,n_amostras_total,n_amostras_melanoma,acuracia_geral,sensibilidade_melanoma,confianca_media
+0-20,126,4,0.7937,0.25,0.9244
+21-40,788,71,0.7246,0.3803,0.9034
+41-60,1319,218,0.7589,0.5138,0.9056
+61-80,929,249,0.6663,0.6104,0.8804
+81+,176,46,0.7614,0.7826,0.8847
