@@ -1,0 +1,73 @@
+{
+  "funcao_unica": "preprocessar_imagem(img, aplicar_dullrazor)",
+  "aplicado_em": [
+    "train",
+    "val",
+    "test"
+  ],
+  "dullrazor": {
+    "kernel_blackhat": 9,
+    "limiar_binarizacao": 10,
+    "inpaint_raio": 3,
+    "inpaint_metodo": "TELEA"
+  },
+  "resize": {
+    "tamanho": 224,
+    "interpolacao": "INTER_AREA"
+  },
+  "jpeg_qualidade": 95,
+  "split": {
+    "seed": 42,
+    "treino": 0.7,
+    "val": 0.15,
+    "teste": 0.15,
+    "inclui_sem_lesion_id": true,
+    "agrupamento_primario": "lesion_id",
+    "duplicidade_perceptual": "pHash DCT 64-bit, distância de Hamming <= PHASH_DISTANCIA_MAX; grupos unidos, não removidos"
+  },
+  "normalizacao_e_augmentation": "feitas dinamicamente no DataLoader (não no disco): eval_transform (val/teste) = só normalização ImageNet; augmentation apenas no treino",
+  "verificacao_pixel_a_pixel": [
+    {
+      "versao": "com_dullrazor",
+      "conjunto": "train",
+      "n_imagens": 16447,
+      "verificadas": 15,
+      "identicas_ao_pipeline": 15
+    },
+    {
+      "versao": "com_dullrazor",
+      "conjunto": "val",
+      "n_imagens": 3538,
+      "verificadas": 15,
+      "identicas_ao_pipeline": 15
+    },
+    {
+      "versao": "com_dullrazor",
+      "conjunto": "test",
+      "n_imagens": 3406,
+      "verificadas": 15,
+      "identicas_ao_pipeline": 15
+    },
+    {
+      "versao": "sem_dullrazor",
+      "conjunto": "train",
+      "n_imagens": 16447,
+      "verificadas": 15,
+      "identicas_ao_pipeline": 15
+    },
+    {
+      "versao": "sem_dullrazor",
+      "conjunto": "val",
+      "n_imagens": 3538,
+      "verificadas": 15,
+      "identicas_ao_pipeline": 15
+    },
+    {
+      "versao": "sem_dullrazor",
+      "conjunto": "test",
+      "n_imagens": 3406,
+      "verificadas": 15,
+      "identicas_ao_pipeline": 15
+    }
+  ]
+}

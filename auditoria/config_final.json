@@ -1,0 +1,44 @@
+{
+  "config_final": {
+    "dados": "com_dullrazor",
+    "cor": "sem_cor",
+    "perda": "ce",
+    "focal_gamma": 2.0,
+    "focal_alpha": "raiz",
+    "scheduler": "cosine",
+    "epocas_e1": 6,
+    "epocas_e2": 24,
+    "lr_e1": 0.001,
+    "lr_e2": 0.0001,
+    "fator_lr_cabeca": 10.0,
+    "seed": 42
+  },
+  "decisoes": [
+    {
+      "fator": "dullrazor",
+      "escolha": "com DullRazor",
+      "F1val[com DullRazor]": 0.6418,
+      "F1val[sem DullRazor]": 0.6255
+    },
+    {
+      "fator": "cor",
+      "escolha": "sem altera\u00e7\u00e3o de cor",
+      "F1val[brilho + contraste]": 0.6308,
+      "F1val[ColorJitter completo (vers\u00e3o anterior)]": 0.5933,
+      "F1val[sem altera\u00e7\u00e3o de cor]": 0.6367
+    },
+    {
+      "fator": "perda",
+      "escolha": "CrossEntropy ponderada",
+      "F1val[CrossEntropy ponderada]": 0.6308,
+      "F1val[Focal Loss (\u03b3=2)]": 0.594
+    },
+    {
+      "fator": "escalonador",
+      "escolha": "cosine@1e-4 (novo)",
+      "F1val[cosine@1e-4 (novo)]": 0.6308,
+      "F1val[constante@1e-4]": 0.6023,
+      "F1val[constante@1e-5 (vers\u00e3o anterior)]": 0.5478
+    }
+  ]
+}

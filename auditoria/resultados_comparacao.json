@@ -1,0 +1,1036 @@
+{
+  "config_final": {
+    "dados": "com_dullrazor",
+    "cor": "sem_cor",
+    "perda": "ce",
+    "focal_gamma": 2.0,
+    "focal_alpha": "raiz",
+    "scheduler": "cosine",
+    "epocas_e1": 6,
+    "epocas_e2": 24,
+    "lr_e1": 0.001,
+    "lr_e2": 0.0001,
+    "fator_lr_cabeca": 10.0,
+    "seed": 42
+  },
+  "resultados": [
+    {
+      "arquitetura": "resnet50",
+      "acuracia": 0.728126834997064,
+      "acuracia_balanceada": 0.6369010530810992,
+      "sensibilidade_macro": 0.6369010530810992,
+      "precisao_macro": 0.6020332999344568,
+      "f1_macro": 0.615251464795524,
+      "auc_roc_ovr": 0.9288926162842587,
+      "especificidade_media": 0.9439911619353231,
+      "matriz_confusao": [
+        [
+          400,
+          43,
+          10,
+          1,
+          5,
+          6,
+          34
+        ],
+        [
+          38,
+          55,
+          8,
+          2,
+          0,
+          18,
+          5
+        ],
+        [
+          33,
+          16,
+          95,
+          0,
+          0,
+          14,
+          39
+        ],
+        [
+          4,
+          0,
+          0,
+          21,
+          0,
+          2,
+          2
+        ],
+        [
+          7,
+          0,
+          0,
+          2,
+          29,
+          7,
+          0
+        ],
+        [
+          42,
+          24,
+          30,
+          3,
+          6,
+          340,
+          162
+        ],
+        [
+          57,
+          12,
+          41,
+          12,
+          0,
+          241,
+          1540
+        ]
+      ],
+      "relatorio_completo": {
+        "carcinoma_basocelular": {
+          "precision": 0.6884681583476764,
+          "recall": 0.8016032064128257,
+          "f1-score": 0.7407407407407407,
+          "support": 499.0
+        },
+        "ceratose_actinica": {
+          "precision": 0.36666666666666664,
+          "recall": 0.4365079365079365,
+          "f1-score": 0.39855072463768115,
+          "support": 126.0
+        },
+        "ceratose_seborreica": {
+          "precision": 0.5163043478260869,
+          "recall": 0.48223350253807107,
+          "f1-score": 0.49868766404199477,
+          "support": 197.0
+        },
+        "dermatofibroma": {
+          "precision": 0.5121951219512195,
+          "recall": 0.7241379310344828,
+          "f1-score": 0.6,
+          "support": 29.0
+        },
+        "lesao_vascular": {
+          "precision": 0.725,
+          "recall": 0.6444444444444445,
+          "f1-score": 0.6823529411764706,
+          "support": 45.0
+        },
+        "melanoma": {
+          "precision": 0.5414012738853503,
+          "recall": 0.5601317957166392,
+          "f1-score": 0.5506072874493927,
+          "support": 607.0
+        },
+        "nevo_melanocitico": {
+          "precision": 0.8641975308641975,
+          "recall": 0.8092485549132948,
+          "f1-score": 0.835820895522388,
+          "support": 1903.0
+        },
+        "accuracy": 0.728126834997064,
+        "macro avg": {
+          "precision": 0.6020332999344568,
+          "recall": 0.6369010530810992,
+          "f1-score": 0.615251464795524,
+          "support": 3406.0
+        },
+        "weighted avg": {
+          "precision": 0.7375615679849649,
+          "recall": 0.728126834997064,
+          "f1-score": 0.7313506050393651,
+          "support": 3406.0
+        }
+      },
+      "sens_melanoma": 0.5601317957166392
+    },
+    {
+      "arquitetura": "efficientnet_b0",
+      "acuracia": 0.7472108044627128,
+      "acuracia_balanceada": 0.648690058684906,
+      "sensibilidade_macro": 0.648690058684906,
+      "precisao_macro": 0.631110725254252,
+      "f1_macro": 0.6369737328133714,
+      "auc_roc_ovr": 0.9247799453997418,
+      "especificidade_media": 0.9496372951257251,
+      "matriz_confusao": [
+        [
+          377,
+          55,
+          14,
+          2,
+          5,
+          28,
+          18
+        ],
+        [
+          29,
+          64,
+          8,
+          0,
+          0,
+          19,
+          6
+        ],
+        [
+          26,
+          18,
+          110,
+          1,
+          0,
+          21,
+          21
+        ],
+        [
+          2,
+          2,
+          0,
+          19,
+          0,
+          4,
+          2
+        ],
+        [
+          9,
+          0,
+          2,
+          1,
+          28,
+          4,
+          1
+        ],
+        [
+          35,
+          25,
+          27,
+          0,
+          4,
+          373,
+          143
+        ],
+        [
+          53,
+          21,
+          41,
+          6,
+          3,
+          205,
+          1574
+        ]
+      ],
+      "relatorio_completo": {
+        "carcinoma_basocelular": {
+          "precision": 0.7099811676082862,
+          "recall": 0.7555110220440882,
+          "f1-score": 0.7320388349514563,
+          "support": 499.0
+        },
+        "ceratose_actinica": {
+          "precision": 0.34594594594594597,
+          "recall": 0.5079365079365079,
+          "f1-score": 0.4115755627009646,
+          "support": 126.0
+        },
+        "ceratose_seborreica": {
+          "precision": 0.5445544554455446,
+          "recall": 0.5583756345177665,
+          "f1-score": 0.5513784461152882,
+          "support": 197.0
+        },
+        "dermatofibroma": {
+          "precision": 0.6551724137931034,
+          "recall": 0.6551724137931034,
+          "f1-score": 0.6551724137931034,
+          "support": 29.0
+        },
+        "lesao_vascular": {
+          "precision": 0.7,
+          "recall": 0.6222222222222222,
+          "f1-score": 0.6588235294117647,
+          "support": 45.0
+        },
+        "melanoma": {
+          "precision": 0.5703363914373089,
+          "recall": 0.6144975288303131,
+          "f1-score": 0.591593973037272,
+          "support": 607.0
+        },
+        "nevo_melanocitico": {
+          "precision": 0.8917847025495751,
+          "recall": 0.8271150814503415,
+          "f1-score": 0.8582333696837514,
+          "support": 1903.0
+        },
+        "accuracy": 0.7472108044627128,
+        "macro avg": {
+          "precision": 0.631110725254252,
+          "recall": 0.648690058684906,
+          "f1-score": 0.6369737328133714,
+          "support": 3406.0
+        },
+        "weighted avg": {
+          "precision": 0.7630380205821445,
+          "recall": 0.7472108044627128,
+          "f1-score": 0.7535907681712103,
+          "support": 3406.0
+        }
+      },
+      "sens_melanoma": 0.6144975288303131
+    }
+  ],
+  "historicos": {
+    "resnet50": [
+      {
+        "epoca": 1,
+        "perda_treino": 1.6562654537336148,
+        "acc_treino": 0.49340305222836994,
+        "perda_val": 1.3287772818970236,
+        "acc_val": 0.5067834934991521,
+        "f1_macro_val": 0.35950337266348165,
+        "sens_melanoma_val": 0.46567164179104475,
+        "lr": 0.001,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 1
+      },
+      {
+        "epoca": 2,
+        "perda_treino": 1.2579012098678841,
+        "acc_treino": 0.5628382075758497,
+        "perda_val": 1.1589590382481645,
+        "acc_val": 0.5568117580553985,
+        "f1_macro_val": 0.410590356194251,
+        "sens_melanoma_val": 0.6014925373134329,
+        "lr": 0.000905463412215599,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 2
+      },
+      {
+        "epoca": 3,
+        "perda_treino": 1.1338599671373515,
+        "acc_treino": 0.5981029975071441,
+        "perda_val": 1.2226117285312805,
+        "acc_val": 0.5211984171848502,
+        "f1_macro_val": 0.3768146640565188,
+        "sens_melanoma_val": 0.5238805970149254,
+        "lr": 0.000657963412215599,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 3
+      },
+      {
+        "epoca": 4,
+        "perda_treino": 1.0710866410384217,
+        "acc_treino": 0.6053383595792545,
+        "perda_val": 1.012553319882511,
+        "acc_val": 0.614471452798191,
+        "f1_macro_val": 0.4148171410247781,
+        "sens_melanoma_val": 0.5522388059701493,
+        "lr": 0.0003520365877844011,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 4
+      },
+      {
+        "epoca": 5,
+        "perda_treino": 1.0481508901548753,
+        "acc_treino": 0.6187754605703167,
+        "perda_val": 1.0423727217469936,
+        "acc_val": 0.6082532504239684,
+        "f1_macro_val": 0.4366028970231118,
+        "sens_melanoma_val": 0.573134328358209,
+        "lr": 0.00010453658778440106,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 5
+      },
+      {
+        "epoca": 6,
+        "perda_treino": 1.0283842667436254,
+        "acc_treino": 0.6217547273058917,
+        "perda_val": 1.0266047997148513,
+        "acc_val": 0.6127755794234031,
+        "f1_macro_val": 0.4330601403155737,
+        "sens_melanoma_val": 0.5432835820895522,
+        "lr": 1e-05,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 6
+      },
+      {
+        "epoca": 1,
+        "perda_treino": 0.9684467944010504,
+        "acc_treino": 0.6437040189700249,
+        "perda_val": 0.8955819554218403,
+        "acc_val": 0.6594120972300734,
+        "f1_macro_val": 0.49658544336902566,
+        "sens_melanoma_val": 0.5805970149253732,
+        "lr": 0.0001,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 7
+      },
+      {
+        "epoca": 2,
+        "perda_treino": 0.7462282806948383,
+        "acc_treino": 0.6950811698182039,
+        "perda_val": 0.7720683545564918,
+        "acc_val": 0.7170717919728661,
+        "f1_macro_val": 0.575543992948167,
+        "sens_melanoma_val": 0.664179104477612,
+        "lr": 9.953895432879837e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 8
+      },
+      {
+        "epoca": 3,
+        "perda_treino": 0.5795560078199942,
+        "acc_treino": 0.7412902049005897,
+        "perda_val": 0.7766846127264778,
+        "acc_val": 0.7272470322215941,
+        "f1_macro_val": 0.5719536683726217,
+        "sens_melanoma_val": 0.5716417910447761,
+        "lr": 9.816440572371608e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 9
+      },
+      {
+        "epoca": 4,
+        "perda_treino": 0.4795709817083134,
+        "acc_treino": 0.7815407065118258,
+        "perda_val": 0.9335661019357063,
+        "acc_val": 0.6644997173544376,
+        "f1_macro_val": 0.5297428898770743,
+        "sens_melanoma_val": 0.5537313432835821,
+        "lr": 9.590195942451992e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 10
+      },
+      {
+        "epoca": 5,
+        "perda_treino": 0.4016614428873069,
+        "acc_treino": 0.8054356417583753,
+        "perda_val": 0.795974020704568,
+        "acc_val": 0.7114188807235726,
+        "f1_macro_val": 0.5687598211725305,
+        "sens_melanoma_val": 0.6761194029850747,
+        "lr": 9.279376052505118e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 11
+      },
+      {
+        "epoca": 6,
+        "perda_treino": 0.3324204564417083,
+        "acc_treino": 0.8321882410165987,
+        "perda_val": 0.8090800325906904,
+        "acc_val": 0.7182023742227247,
+        "f1_macro_val": 0.5537372845739686,
+        "sens_melanoma_val": 0.6985074626865672,
+        "lr": 8.889770888986879e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 12
+      },
+      {
+        "epoca": 7,
+        "perda_treino": 0.28112394586336853,
+        "acc_treino": 0.8462333556271661,
+        "perda_val": 0.7960817979647656,
+        "acc_val": 0.749576031656303,
+        "f1_macro_val": 0.5936268100305503,
+        "sens_melanoma_val": 0.5686567164179105,
+        "lr": 8.428638058932339e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 13
+      },
+      {
+        "epoca": 8,
+        "perda_treino": 0.2557954010307053,
+        "acc_treino": 0.8633793396972093,
+        "perda_val": 0.9103930950703899,
+        "acc_val": 0.711136235161108,
+        "f1_macro_val": 0.5413884608140529,
+        "sens_melanoma_val": 0.7029850746268657,
+        "lr": 7.904567594468594e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 14
+      },
+      {
+        "epoca": 9,
+        "perda_treino": 0.2102430936499715,
+        "acc_treino": 0.8860582477047486,
+        "perda_val": 0.8473802107481582,
+        "acc_val": 0.7492933860938383,
+        "f1_macro_val": 0.6064013138757106,
+        "sens_melanoma_val": 0.673134328358209,
+        "lr": 7.327321936769204e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 15
+      },
+      {
+        "epoca": 10,
+        "perda_treino": 0.16909042150896575,
+        "acc_treino": 0.8927463975193044,
+        "perda_val": 0.9623285269858542,
+        "acc_val": 0.71791972866026,
+        "f1_macro_val": 0.5748985765482871,
+        "sens_melanoma_val": 0.6179104477611941,
+        "lr": 6.707654080246381e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 16
+      },
+      {
+        "epoca": 11,
+        "perda_treino": 0.15126465394256716,
+        "acc_treino": 0.9114124156381103,
+        "perda_val": 0.8814999048759736,
+        "acc_val": 0.7580553985302431,
+        "f1_macro_val": 0.6115549309740737,
+        "sens_melanoma_val": 0.608955223880597,
+        "lr": 6.0571072646105386e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 17
+      },
+      {
+        "epoca": 12,
+        "perda_treino": 0.1284948792427483,
+        "acc_treino": 0.9216878458077461,
+        "perda_val": 0.908644884572048,
+        "acc_val": 0.7459016393442623,
+        "f1_macro_val": 0.6029871467339137,
+        "sens_melanoma_val": 0.6761194029850747,
+        "lr": 5.387799946155122e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 18
+      },
+      {
+        "epoca": 13,
+        "perda_treino": 0.09890345210176532,
+        "acc_treino": 0.9391986380494923,
+        "perda_val": 0.931086450562496,
+        "acc_val": 0.7594686263425664,
+        "f1_macro_val": 0.5967134368170772,
+        "sens_melanoma_val": 0.6447761194029851,
+        "lr": 4.7122000538448796e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 19
+      },
+      {
+        "epoca": 14,
+        "perda_treino": 0.07760797650384825,
+        "acc_treino": 0.9494132668571776,
+        "perda_val": 1.0331626999270385,
+        "acc_val": 0.7535330695308083,
+        "f1_macro_val": 0.6060581168064292,
+        "sens_melanoma_val": 0.6164179104477612,
+        "lr": 4.0428927353894644e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 20
+      },
+      {
+        "epoca": 15,
+        "perda_treino": 0.07543568261988806,
+        "acc_treino": 0.9548853894327233,
+        "perda_val": 1.0383936549863821,
+        "acc_val": 0.7509892594686264,
+        "f1_macro_val": 0.6270170488714195,
+        "sens_melanoma_val": 0.5970149253731343,
+        "lr": 3.392345919753619e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 21
+      },
+      {
+        "epoca": 16,
+        "perda_treino": 0.05377182364605371,
+        "acc_treino": 0.9641879978111509,
+        "perda_val": 1.1039630593284502,
+        "acc_val": 0.7574901074053138,
+        "f1_macro_val": 0.6206891489176759,
+        "sens_melanoma_val": 0.5970149253731343,
+        "lr": 2.772678063230797e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 22
+      },
+      {
+        "epoca": 17,
+        "perda_treino": 0.04476310510054478,
+        "acc_treino": 0.9692345108530431,
+        "perda_val": 1.1301243436949748,
+        "acc_val": 0.7645562464669304,
+        "f1_macro_val": 0.6209808791084549,
+        "sens_melanoma_val": 0.591044776119403,
+        "lr": 2.1954324055314084e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 23
+      },
+      {
+        "epoca": 18,
+        "perda_treino": 0.046916216015933515,
+        "acc_treino": 0.971727366693014,
+        "perda_val": 1.1096913266849087,
+        "acc_val": 0.756359525155455,
+        "f1_macro_val": 0.6115546334458359,
+        "sens_melanoma_val": 0.5686567164179105,
+        "lr": 1.6713619410676634e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 24
+      },
+      {
+        "epoca": 19,
+        "perda_treino": 0.031492303112593004,
+        "acc_treino": 0.9789019274031738,
+        "perda_val": 1.1349453603972008,
+        "acc_val": 0.7625777275296778,
+        "f1_macro_val": 0.6102990077128653,
+        "sens_melanoma_val": 0.5880597014925373,
+        "lr": 1.2102291110131215e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 25
+      },
+      {
+        "epoca": 20,
+        "perda_treino": 0.0288879738426032,
+        "acc_treino": 0.9819419955006992,
+        "perda_val": 1.159272032497696,
+        "acc_val": 0.7671000565291125,
+        "f1_macro_val": 0.6230700388748909,
+        "sens_melanoma_val": 0.6223880597014926,
+        "lr": 8.206239474948815e-06,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 26
+      },
+      {
+        "epoca": 21,
+        "perda_treino": 0.02658652336086217,
+        "acc_treino": 0.9825500091202043,
+        "perda_val": 1.133590188637637,
+        "acc_val": 0.7639909553420011,
+        "f1_macro_val": 0.6218207571562981,
+        "sens_melanoma_val": 0.5880597014925373,
+        "lr": 5.098040575480085e-06,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 27
+      },
+      {
+        "epoca": 22,
+        "perda_treino": 0.022993491922744216,
+        "acc_treino": 0.9853468717699276,
+        "perda_val": 1.168570074331228,
+        "acc_val": 0.7645562464669304,
+        "f1_macro_val": 0.6153090765409804,
+        "sens_melanoma_val": 0.591044776119403,
+        "lr": 2.835594276283943e-06,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 28
+      }
+    ],
+    "efficientnet_b0": [
+      {
+        "epoca": 1,
+        "perda_treino": 1.6252263216738383,
+        "acc_treino": 0.47285219188909833,
+        "perda_val": 1.242850226153756,
+        "acc_val": 0.5556811758055399,
+        "f1_macro_val": 0.37294641796902583,
+        "sens_melanoma_val": 0.5686567164179105,
+        "lr": 0.001,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 1
+      },
+      {
+        "epoca": 2,
+        "perda_treino": 1.2609120994134029,
+        "acc_treino": 0.5639326320909588,
+        "perda_val": 1.1838053876629921,
+        "acc_val": 0.5559638213680045,
+        "f1_macro_val": 0.38927261210552017,
+        "sens_melanoma_val": 0.5104477611940299,
+        "lr": 0.000905463412215599,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 2
+      },
+      {
+        "epoca": 3,
+        "perda_treino": 1.1733303890261904,
+        "acc_treino": 0.5672767069982367,
+        "perda_val": 1.0755170444231912,
+        "acc_val": 0.5986433013001696,
+        "f1_macro_val": 0.41092637149701666,
+        "sens_melanoma_val": 0.46865671641791046,
+        "lr": 0.000657963412215599,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 3
+      },
+      {
+        "epoca": 4,
+        "perda_treino": 1.1113736528991356,
+        "acc_treino": 0.5874627591658053,
+        "perda_val": 1.0746833214050906,
+        "acc_val": 0.5975127190503109,
+        "f1_macro_val": 0.4227200311998681,
+        "sens_melanoma_val": 0.5373134328358209,
+        "lr": 0.0003520365877844011,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 4
+      },
+      {
+        "epoca": 5,
+        "perda_treino": 1.1081898233742238,
+        "acc_treino": 0.5825986502097646,
+        "perda_val": 1.0599736419352115,
+        "acc_val": 0.6045788581119277,
+        "f1_macro_val": 0.4236752059778555,
+        "sens_melanoma_val": 0.508955223880597,
+        "lr": 0.00010453658778440106,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 5
+      },
+      {
+        "epoca": 6,
+        "perda_treino": 1.0872308090478662,
+        "acc_treino": 0.5846050951541315,
+        "perda_val": 1.0748191013249926,
+        "acc_val": 0.5969474279253816,
+        "f1_macro_val": 0.42015432204170444,
+        "sens_melanoma_val": 0.49850746268656715,
+        "lr": 1e-05,
+        "etapa": "cabeca_congelada",
+        "epoca_global": 6
+      },
+      {
+        "epoca": 1,
+        "perda_treino": 1.0115446651671196,
+        "acc_treino": 0.6091688453821366,
+        "perda_val": 1.0011170892273389,
+        "acc_val": 0.6218202374222724,
+        "f1_macro_val": 0.44967211390467215,
+        "sens_melanoma_val": 0.5313432835820896,
+        "lr": 0.0001,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 7
+      },
+      {
+        "epoca": 2,
+        "perda_treino": 0.8304709184783682,
+        "acc_treino": 0.6558642913601265,
+        "perda_val": 0.9040220971832578,
+        "acc_val": 0.6314301865460712,
+        "f1_macro_val": 0.4908439039027356,
+        "sens_melanoma_val": 0.6014925373134329,
+        "lr": 9.953895432879837e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 8
+      },
+      {
+        "epoca": 3,
+        "perda_treino": 0.68083395953308,
+        "acc_treino": 0.6983036420015808,
+        "perda_val": 0.8641522221810539,
+        "acc_val": 0.6647823629169022,
+        "f1_macro_val": 0.501641553568437,
+        "sens_melanoma_val": 0.6014925373134329,
+        "lr": 9.816440572371608e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 9
+      },
+      {
+        "epoca": 4,
+        "perda_treino": 0.5768639845399282,
+        "acc_treino": 0.7313187815407065,
+        "perda_val": 0.8255359396009947,
+        "acc_val": 0.6970039570378745,
+        "f1_macro_val": 0.5514032613781261,
+        "sens_melanoma_val": 0.6059701492537314,
+        "lr": 9.590195942451992e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 10
+      },
+      {
+        "epoca": 5,
+        "perda_treino": 0.5164934817241551,
+        "acc_treino": 0.7529032650331368,
+        "perda_val": 0.806636521545354,
+        "acc_val": 0.7088750706613907,
+        "f1_macro_val": 0.5400088294915824,
+        "sens_melanoma_val": 0.5761194029850746,
+        "lr": 9.279376052505118e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 11
+      },
+      {
+        "epoca": 6,
+        "perda_treino": 0.45389091618816174,
+        "acc_treino": 0.7755213716787256,
+        "perda_val": 0.8301651026651373,
+        "acc_val": 0.6958733747880158,
+        "f1_macro_val": 0.5496707069229989,
+        "sens_melanoma_val": 0.6044776119402985,
+        "lr": 8.889770888986879e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 12
+      },
+      {
+        "epoca": 7,
+        "perda_treino": 0.4121767905694616,
+        "acc_treino": 0.7896880890131939,
+        "perda_val": 0.757128086212734,
+        "acc_val": 0.7314867156585642,
+        "f1_macro_val": 0.5847216790212675,
+        "sens_melanoma_val": 0.5955223880597015,
+        "lr": 8.428638058932339e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 13
+      },
+      {
+        "epoca": 8,
+        "perda_treino": 0.3547156455216455,
+        "acc_treino": 0.813887031069496,
+        "perda_val": 0.7689869938562521,
+        "acc_val": 0.7430751837196156,
+        "f1_macro_val": 0.5812533022888984,
+        "sens_melanoma_val": 0.5925373134328358,
+        "lr": 7.904567594468594e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 14
+      },
+      {
+        "epoca": 9,
+        "perda_treino": 0.3298971691182038,
+        "acc_treino": 0.821912810846963,
+        "perda_val": 0.8577189694157153,
+        "acc_val": 0.7255511588468061,
+        "f1_macro_val": 0.5708941062318339,
+        "sens_melanoma_val": 0.6656716417910448,
+        "lr": 7.327321936769204e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 15
+      },
+      {
+        "epoca": 10,
+        "perda_treino": 0.27568516905687424,
+        "acc_treino": 0.8388155894692041,
+        "perda_val": 0.7949086498782889,
+        "acc_val": 0.7402487280949689,
+        "f1_macro_val": 0.6029816914300202,
+        "sens_melanoma_val": 0.6477611940298508,
+        "lr": 6.707654080246381e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 16
+      },
+      {
+        "epoca": 11,
+        "perda_treino": 0.25259495354093026,
+        "acc_treino": 0.8515838754788108,
+        "perda_val": 0.7734501341967478,
+        "acc_val": 0.7475975127190503,
+        "f1_macro_val": 0.606791334842577,
+        "sens_melanoma_val": 0.6358208955223881,
+        "lr": 6.0571072646105386e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 17
+      },
+      {
+        "epoca": 12,
+        "perda_treino": 0.23720806930650185,
+        "acc_treino": 0.8581504225694656,
+        "perda_val": 0.8072900249501148,
+        "acc_val": 0.7509892594686264,
+        "f1_macro_val": 0.6242531352068211,
+        "sens_melanoma_val": 0.6462686567164179,
+        "lr": 5.387799946155122e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 18
+      },
+      {
+        "epoca": 13,
+        "perda_treino": 0.20672149151688674,
+        "acc_treino": 0.8737155712287955,
+        "perda_val": 0.83432423234525,
+        "acc_val": 0.7586206896551724,
+        "f1_macro_val": 0.6041931007341609,
+        "sens_melanoma_val": 0.5835820895522388,
+        "lr": 4.7122000538448796e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 19
+      },
+      {
+        "epoca": 14,
+        "perda_treino": 0.1931502601908588,
+        "acc_treino": 0.8837477959506292,
+        "perda_val": 0.8065865242663179,
+        "acc_val": 0.7611644997173544,
+        "f1_macro_val": 0.6190597553051056,
+        "sens_melanoma_val": 0.6104477611940299,
+        "lr": 4.0428927353894644e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 20
+      },
+      {
+        "epoca": 15,
+        "perda_treino": 0.1820952423406588,
+        "acc_treino": 0.8853286313613425,
+        "perda_val": 0.7991764393312369,
+        "acc_val": 0.7724703222159413,
+        "f1_macro_val": 0.6393081643348226,
+        "sens_melanoma_val": 0.6358208955223881,
+        "lr": 3.392345919753619e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 21
+      },
+      {
+        "epoca": 16,
+        "perda_treino": 0.15786881293668176,
+        "acc_treino": 0.897975314647048,
+        "perda_val": 0.815393867938784,
+        "acc_val": 0.7622950819672131,
+        "f1_macro_val": 0.628661937486638,
+        "sens_melanoma_val": 0.6343283582089553,
+        "lr": 2.772678063230797e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 22
+      },
+      {
+        "epoca": 17,
+        "perda_treino": 0.15126507952714202,
+        "acc_treino": 0.901076184106524,
+        "perda_val": 0.8798875097435972,
+        "acc_val": 0.7665347654041832,
+        "f1_macro_val": 0.6226302747237132,
+        "sens_melanoma_val": 0.655223880597015,
+        "lr": 2.1954324055314084e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 23
+      },
+      {
+        "epoca": 18,
+        "perda_treino": 0.15368595464431298,
+        "acc_treino": 0.9022922113455342,
+        "perda_val": 0.8339794301225211,
+        "acc_val": 0.7693612210288299,
+        "f1_macro_val": 0.6399154703733233,
+        "sens_melanoma_val": 0.6343283582089553,
+        "lr": 1.6713619410676634e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 24
+      },
+      {
+        "epoca": 19,
+        "perda_treino": 0.13153358766118387,
+        "acc_treino": 0.9103787924849517,
+        "perda_val": 0.8383077852061538,
+        "acc_val": 0.7716223855285472,
+        "f1_macro_val": 0.636507650941869,
+        "sens_melanoma_val": 0.6373134328358209,
+        "lr": 1.2102291110131215e-05,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 25
+      },
+      {
+        "epoca": 20,
+        "perda_treino": 0.13142481156093536,
+        "acc_treino": 0.9129932510488235,
+        "perda_val": 0.8726738522523133,
+        "acc_val": 0.7620124364047485,
+        "f1_macro_val": 0.625606848925924,
+        "sens_melanoma_val": 0.6104477611940299,
+        "lr": 8.206239474948815e-06,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 26
+      },
+      {
+        "epoca": 21,
+        "perda_treino": 0.1257672952916721,
+        "acc_treino": 0.9145132850975862,
+        "perda_val": 0.8319210407254115,
+        "acc_val": 0.7724703222159413,
+        "f1_macro_val": 0.635322136302708,
+        "sens_melanoma_val": 0.6238805970149254,
+        "lr": 5.098040575480085e-06,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 27
+      },
+      {
+        "epoca": 22,
+        "perda_treino": 0.12051280414727623,
+        "acc_treino": 0.916762935489755,
+        "perda_val": 0.849764516152791,
+        "acc_val": 0.7654041831543245,
+        "f1_macro_val": 0.6358209087605042,
+        "sens_melanoma_val": 0.6597014925373135,
+        "lr": 2.835594276283943e-06,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 28
+      },
+      {
+        "epoca": 23,
+        "perda_treino": 0.12274626576598599,
+        "acc_treino": 0.9160333191463489,
+        "perda_val": 0.864600197247289,
+        "acc_val": 0.776144714527982,
+        "f1_macro_val": 0.6355631837351704,
+        "sens_melanoma_val": 0.6358208955223881,
+        "lr": 1.4610456712016278e-06,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 29
+      },
+      {
+        "epoca": 24,
+        "perda_treino": 0.11889584331068288,
+        "acc_treino": 0.9188909831580228,
+        "perda_val": 0.8732266972939667,
+        "acc_val": 0.7704918032786885,
+        "f1_macro_val": 0.6283030473841519,
+        "sens_melanoma_val": 0.6417910447761194,
+        "lr": 1.0000000000000002e-06,
+        "etapa": "fine_tuning_completo",
+        "epoca_global": 30
+      }
+    ]
+  },
+  "tempos_treinamento": {
+    "resnet50": 1941.8198013305664,
+    "efficientnet_b0": 1673.7089791297913
+  },
+  "resumo_epocas": {
+    "resnet50": {
+      "epocas_executadas_total": 28,
+      "epocas_etapa1": 6,
+      "epocas_etapa2": 22,
+      "melhor_epoca_global_por_f1_validacao": 21,
+      "melhor_epoca_na_etapa2": 15,
+      "melhor_f1_macro_validacao": 0.6270170488714195,
+      "tempo_treinamento_segundos": 1941.8198013305664,
+      "tempo_treinamento_minutos": 32.36366335550944
+    },
+    "efficientnet_b0": {
+      "epocas_executadas_total": 30,
+      "epocas_etapa1": 6,
+      "epocas_etapa2": 24,
+      "melhor_epoca_global_por_f1_validacao": 24,
+      "melhor_epoca_na_etapa2": 18,
+      "melhor_f1_macro_validacao": 0.6399154703733233,
+      "tempo_treinamento_segundos": 1673.7089791297913,
+      "tempo_treinamento_minutos": 27.895149652163187
+    }
+  },
+  "ambiente": {
+    "python": "3.13.15",
+    "plataforma": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "pytorch": "2.11.0+cu130",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "cuda_disponivel": true,
+    "cuda_versao_pytorch": "13.0",
+    "dispositivo": "cuda",
+    "semente": 42,
+    "batch_size": 32,
+    "num_workers": 2,
+    "gpu": "Tesla T4",
+    "memoria_gpu_total_gb": 14.56
+  },
+  "mapa_classes": {
+    "carcinoma_basocelular": 0,
+    "ceratose_actinica": 1,
+    "ceratose_seborreica": 2,
+    "dermatofibroma": 3,
+    "lesao_vascular": 4,
+    "melanoma": 5,
+    "nevo_melanocitico": 6
+  }
+}
